@@ -19,7 +19,8 @@ gem 'nl-logic_client'
 ```
 
 See `bin/set_multi.rb`, `bin/list_exports.rb`, and `bin/show_info.rb` for usage
-examples.
+examples.  Additional practical examples will eventually be available when the
+Sinatra-based Automation Controller web server is released.
 
 [0]: https://www.gnu.org/licenses/agpl-3.0.html
 [1]: http://www.nitrogenlogic.com/products/automation_controller.html
