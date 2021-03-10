@@ -13,15 +13,6 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Ruby client for the Automation Controller logic backend.}
   spec.homepage      = "https://github.com/nitrogenlogic/nl-logic_client"
 
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "Public release not allowed."
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
-
-
   basedir = ENV['LOGIC_GEM_SOURCE'] || File.expand_path('..', __FILE__)
   spec.files         = `cd "#{basedir}"; git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
