@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'nl/logic_client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "logic_system"
+  spec.name          = "nl-logic_client"
   spec.version       = NL::LogicClient::VERSION
   spec.authors       = ["Mike Bourgeous"]
   spec.email         = ["mike@mikebourgeous.com"]
